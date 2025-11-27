@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Arrow Function</h1>
+<p id="r1"></p>
+<p id="r2"></p>
+<p id="r3"></p>
+<p id="r4"></p>
+<script>
+    a=(x,y) => x+y;
+    s=(x,y) => x-y;
+    m=(x,y) => x*y;
+    d=(x,y) => x/y;
+    document.getElementById("r1").innerHTML="Addition=" + a(10,20);
+    document.getElementById("r2").innerHTML = "Subtraction=" + s(10, 20);
+    document.getElementById("r3").innerHTML = "Multiplication=" + m(10, 20);
+    document.getElementById("r4").innerHTML = "Division=" + d(10, 20);
+</script>
+</body>
+</html>
